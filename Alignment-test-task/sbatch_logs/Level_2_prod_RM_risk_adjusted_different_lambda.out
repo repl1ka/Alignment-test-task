@@ -1,0 +1,273 @@
+Используемое устройство: cuda
+Будут протестированы следующие значения lambda: [0.1, 0.5, 1.0]
+
+Загрузка Reward Model и токенайзера...
+Загрузка и подготовка датасета...
+
+=========================
+ЗАПУСК 1/3: Обучение с LAMBDA = 0.1
+=========================
+
+Загрузка исходной SFT модели...
+Оценка модели на 700 промптах...
+
+Средняя награда исходной SFT модели: 4.7447
+
+Начинаем обучение с помощью REINFORCE (lambda=0.1)...
+--- Эпоха 1 / 1 ---
+
+Шаг 50/1625 | Loss: -432.6625 | Mean Reward (Risk-Adj): 3.9011 | Baseline: 4.3937
+
+Шаг 100/1625 | Loss: 14.5068 | Mean Reward (Risk-Adj): 4.3591 | Baseline: 4.3668
+
+Шаг 150/1625 | Loss: -341.5835 | Mean Reward (Risk-Adj): 4.0585 | Baseline: 4.3414
+
+Шаг 200/1625 | Loss: 111.1012 | Mean Reward (Risk-Adj): 4.9633 | Baseline: 4.3680
+
+Шаг 250/1625 | Loss: 304.1710 | Mean Reward (Risk-Adj): 4.4852 | Baseline: 4.3754
+
+Шаг 300/1625 | Loss: -199.7892 | Mean Reward (Risk-Adj): 4.3158 | Baseline: 4.4216
+
+Шаг 350/1625 | Loss: -400.1140 | Mean Reward (Risk-Adj): 3.6703 | Baseline: 4.4051
+
+Шаг 400/1625 | Loss: -355.6531 | Mean Reward (Risk-Adj): 3.9267 | Baseline: 4.3510
+
+Шаг 450/1625 | Loss: 1.8737 | Mean Reward (Risk-Adj): 4.4052 | Baseline: 4.4169
+
+Шаг 500/1625 | Loss: 29.4446 | Mean Reward (Risk-Adj): 4.0921 | Baseline: 4.4274
+
+Шаг 550/1625 | Loss: -8.4120 | Mean Reward (Risk-Adj): 4.5805 | Baseline: 4.4533
+
+Шаг 600/1625 | Loss: 121.2952 | Mean Reward (Risk-Adj): 4.7536 | Baseline: 4.5131
+
+Шаг 650/1625 | Loss: 148.0652 | Mean Reward (Risk-Adj): 4.7638 | Baseline: 4.5551
+
+Шаг 700/1625 | Loss: 165.7891 | Mean Reward (Risk-Adj): 4.9444 | Baseline: 4.5709
+
+Шаг 750/1625 | Loss: 248.1523 | Mean Reward (Risk-Adj): 4.6718 | Baseline: 4.5784
+
+Шаг 800/1625 | Loss: 449.9449 | Mean Reward (Risk-Adj): 4.9801 | Baseline: 4.6433
+
+Шаг 850/1625 | Loss: -252.5110 | Mean Reward (Risk-Adj): 4.0337 | Baseline: 4.6078
+
+Шаг 900/1625 | Loss: -45.3237 | Mean Reward (Risk-Adj): 4.4587 | Baseline: 4.5905
+
+Шаг 950/1625 | Loss: 123.2016 | Mean Reward (Risk-Adj): 4.8116 | Baseline: 4.6262
+
+Шаг 1000/1625 | Loss: 507.2682 | Mean Reward (Risk-Adj): 5.4028 | Baseline: 4.6359
+
+Шаг 1050/1625 | Loss: -428.8433 | Mean Reward (Risk-Adj): 4.2045 | Baseline: 4.6526
+
+Шаг 1100/1625 | Loss: 251.1878 | Mean Reward (Risk-Adj): 4.8598 | Baseline: 4.6166
+
+Шаг 1150/1625 | Loss: -98.9073 | Mean Reward (Risk-Adj): 4.4504 | Baseline: 4.6648
+
+Шаг 1200/1625 | Loss: 299.0751 | Mean Reward (Risk-Adj): 4.8370 | Baseline: 4.6666
+
+Шаг 1250/1625 | Loss: -135.0460 | Mean Reward (Risk-Adj): 4.5468 | Baseline: 4.6539
+
+Шаг 1300/1625 | Loss: -51.3453 | Mean Reward (Risk-Adj): 4.0815 | Baseline: 4.6761
+
+Шаг 1350/1625 | Loss: -855.3622 | Mean Reward (Risk-Adj): 4.2563 | Baseline: 4.7122
+
+Шаг 1400/1625 | Loss: 146.4868 | Mean Reward (Risk-Adj): 4.8773 | Baseline: 4.7580
+
+Шаг 1450/1625 | Loss: -72.2369 | Mean Reward (Risk-Adj): 5.3549 | Baseline: 4.7837
+
+Шаг 1500/1625 | Loss: -184.8654 | Mean Reward (Risk-Adj): 4.2808 | Baseline: 4.7720
+
+Шаг 1550/1625 | Loss: -52.7328 | Mean Reward (Risk-Adj): 4.9074 | Baseline: 4.7895
+
+Шаг 1600/1625 | Loss: 113.1113 | Mean Reward (Risk-Adj): 4.8667 | Baseline: 4.7498
+
+Обучение для текущей lambda завершено. Финальная оценка модели...
+Оценка модели на 700 промптах...
+
+РЕЗУЛЬТАТ для lambda=0.1:
+Средняя награда исходной SFT модели: 4.7447
+Средняя награда REINFORCE модели: 5.4189
+Сохранение модели в ./reinforce_model_smollm2_prob_rm_lambda_0.1...
+[2025-06-24 10:12:36,247] [INFO] [real_accelerator.py:239:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Модель успешно сохранена.
+
+=========================
+ЗАПУСК 2/3: Обучение с LAMBDA = 0.5
+=========================
+
+Загрузка исходной SFT модели...
+
+Начинаем обучение с помощью REINFORCE (lambda=0.5)...
+--- Эпоха 1 / 1 ---
+
+Шаг 50/1625 | Loss: -221.8161 | Mean Reward (Risk-Adj): 1.8370 | Baseline: 2.1238
+
+Шаг 100/1625 | Loss: -12.5962 | Mean Reward (Risk-Adj): 1.8656 | Baseline: 2.0125
+
+Шаг 150/1625 | Loss: -272.8331 | Mean Reward (Risk-Adj): 1.3831 | Baseline: 1.9587
+
+Шаг 200/1625 | Loss: 106.6199 | Mean Reward (Risk-Adj): 1.7827 | Baseline: 1.9277
+
+Шаг 250/1625 | Loss: 124.7952 | Mean Reward (Risk-Adj): 2.3238 | Baseline: 1.9434
+
+Шаг 300/1625 | Loss: 203.0901 | Mean Reward (Risk-Adj): 2.1367 | Baseline: 2.0158
+
+Шаг 350/1625 | Loss: -832.8216 | Mean Reward (Risk-Adj): 0.5707 | Baseline: 1.9801
+
+Шаг 400/1625 | Loss: -237.8263 | Mean Reward (Risk-Adj): 1.2496 | Baseline: 1.9312
+
+Шаг 450/1625 | Loss: 396.3737 | Mean Reward (Risk-Adj): 2.5175 | Baseline: 1.9689
+
+Шаг 500/1625 | Loss: 463.7901 | Mean Reward (Risk-Adj): 2.0235 | Baseline: 1.9893
+
+Шаг 550/1625 | Loss: -97.6222 | Mean Reward (Risk-Adj): 1.6615 | Baseline: 1.9944
+
+Шаг 600/1625 | Loss: -513.6217 | Mean Reward (Risk-Adj): 1.0418 | Baseline: 2.0892
+
+Шаг 650/1625 | Loss: 563.7318 | Mean Reward (Risk-Adj): 2.8184 | Baseline: 2.0945
+
+Шаг 700/1625 | Loss: 631.6667 | Mean Reward (Risk-Adj): 3.1534 | Baseline: 2.0987
+
+Шаг 750/1625 | Loss: 278.4136 | Mean Reward (Risk-Adj): 2.7392 | Baseline: 2.1610
+
+Шаг 800/1625 | Loss: -474.9234 | Mean Reward (Risk-Adj): 1.4207 | Baseline: 2.1054
+
+Шаг 850/1625 | Loss: 215.4480 | Mean Reward (Risk-Adj): 2.3100 | Baseline: 2.1412
+
+Шаг 900/1625 | Loss: -100.4454 | Mean Reward (Risk-Adj): 2.3121 | Baseline: 2.1064
+
+Шаг 950/1625 | Loss: 619.9095 | Mean Reward (Risk-Adj): 2.8488 | Baseline: 2.1132
+
+Шаг 1000/1625 | Loss: 390.4889 | Mean Reward (Risk-Adj): 2.4575 | Baseline: 2.1485
+
+Шаг 1050/1625 | Loss: 1148.0144 | Mean Reward (Risk-Adj): 3.3956 | Baseline: 2.1837
+
+Шаг 1100/1625 | Loss: 91.9257 | Mean Reward (Risk-Adj): 2.4472 | Baseline: 2.2204
+
+Шаг 1150/1625 | Loss: 146.3811 | Mean Reward (Risk-Adj): 1.8500 | Baseline: 2.2543
+
+Шаг 1200/1625 | Loss: 152.3141 | Mean Reward (Risk-Adj): 2.5711 | Baseline: 2.2525
+
+Шаг 1250/1625 | Loss: 59.9626 | Mean Reward (Risk-Adj): 1.8749 | Baseline: 2.1879
+
+Шаг 1300/1625 | Loss: -262.7997 | Mean Reward (Risk-Adj): 1.6562 | Baseline: 2.2556
+
+Шаг 1350/1625 | Loss: 228.2084 | Mean Reward (Risk-Adj): 2.3715 | Baseline: 2.3574
+
+Шаг 1400/1625 | Loss: 719.0365 | Mean Reward (Risk-Adj): 2.0264 | Baseline: 2.3583
+
+Шаг 1450/1625 | Loss: -176.3538 | Mean Reward (Risk-Adj): 1.9660 | Baseline: 2.3127
+
+Шаг 1500/1625 | Loss: -399.6061 | Mean Reward (Risk-Adj): 1.4394 | Baseline: 2.2802
+
+Шаг 1550/1625 | Loss: 125.8382 | Mean Reward (Risk-Adj): 2.7902 | Baseline: 2.3387
+
+Шаг 1600/1625 | Loss: -323.8505 | Mean Reward (Risk-Adj): 1.8842 | Baseline: 2.3173
+
+Обучение для текущей lambda завершено. Финальная оценка модели...
+Оценка модели на 700 промптах...
+
+РЕЗУЛЬТАТ для lambda=0.5:
+Средняя награда исходной SFT модели: 4.7447
+Средняя награда REINFORCE модели: 5.2796
+Сохранение модели в ./reinforce_model_smollm2_prob_rm_lambda_0.5...
+Модель успешно сохранена.
+
+=========================
+ЗАПУСК 3/3: Обучение с LAMBDA = 1.0
+=========================
+
+Загрузка исходной SFT модели...
+
+Начинаем обучение с помощью REINFORCE (lambda=1.0)...
+--- Эпоха 1 / 1 ---
+
+Шаг 50/1625 | Loss: 329.8932 | Mean Reward (Risk-Adj): -0.3052 | Baseline: -0.9883
+
+Шаг 100/1625 | Loss: 256.8691 | Mean Reward (Risk-Adj): -0.4296 | Baseline: -0.9782
+
+Шаг 150/1625 | Loss: -503.8814 | Mean Reward (Risk-Adj): -2.6402 | Baseline: -1.0373
+
+Шаг 200/1625 | Loss: 1109.8923 | Mean Reward (Risk-Adj): 0.7940 | Baseline: -0.9678
+
+Шаг 250/1625 | Loss: 584.1210 | Mean Reward (Risk-Adj): 0.1716 | Baseline: -0.9204
+
+Шаг 300/1625 | Loss: 392.1843 | Mean Reward (Risk-Adj): 0.1658 | Baseline: -0.8697
+
+Шаг 350/1625 | Loss: 305.8473 | Mean Reward (Risk-Adj): -0.9995 | Baseline: -0.8728
+
+Шаг 400/1625 | Loss: 320.3357 | Mean Reward (Risk-Adj): -0.0353 | Baseline: -0.9094
+
+Шаг 450/1625 | Loss: 20.7212 | Mean Reward (Risk-Adj): -0.8561 | Baseline: -0.8954
+
+Шаг 500/1625 | Loss: -351.2604 | Mean Reward (Risk-Adj): -1.4855 | Baseline: -0.9425
+
+Шаг 550/1625 | Loss: 857.5640 | Mean Reward (Risk-Adj): 0.8910 | Baseline: -0.7964
+
+Шаг 600/1625 | Loss: -406.8569 | Mean Reward (Risk-Adj): -2.3056 | Baseline: -0.7904
+
+Шаг 650/1625 | Loss: -357.7739 | Mean Reward (Risk-Adj): -0.8602 | Baseline: -0.7724
+
+Шаг 700/1625 | Loss: 172.2206 | Mean Reward (Risk-Adj): 1.1082 | Baseline: -0.6315
+
+Шаг 750/1625 | Loss: 54.0707 | Mean Reward (Risk-Adj): -0.2548 | Baseline: -0.6506
+
+Шаг 800/1625 | Loss: -194.6152 | Mean Reward (Risk-Adj): -1.4639 | Baseline: -0.6841
+
+Шаг 850/1625 | Loss: 403.4691 | Mean Reward (Risk-Adj): 0.0004 | Baseline: -0.7050
+
+Шаг 900/1625 | Loss: -73.6069 | Mean Reward (Risk-Adj): -0.1872 | Baseline: -0.6750
+
+Шаг 950/1625 | Loss: 52.5544 | Mean Reward (Risk-Adj): -0.2249 | Baseline: -0.6197
+
+Шаг 1000/1625 | Loss: 545.4625 | Mean Reward (Risk-Adj): 0.5686 | Baseline: -0.6246
+
+Шаг 1050/1625 | Loss: -1240.8096 | Mean Reward (Risk-Adj): -1.9918 | Baseline: -0.6568
+
+Шаг 1100/1625 | Loss: 179.8354 | Mean Reward (Risk-Adj): 0.0888 | Baseline: -0.6402
+
+Шаг 1150/1625 | Loss: -773.3651 | Mean Reward (Risk-Adj): -3.7334 | Baseline: -0.6026
+
+Шаг 1200/1625 | Loss: 365.7637 | Mean Reward (Risk-Adj): -0.2544 | Baseline: -0.5673
+
+Шаг 1250/1625 | Loss: -1514.0632 | Mean Reward (Risk-Adj): -2.1174 | Baseline: -0.5932
+
+Шаг 1300/1625 | Loss: -97.9935 | Mean Reward (Risk-Adj): -0.4778 | Baseline: -0.4984
+
+Шаг 1350/1625 | Loss: 514.6323 | Mean Reward (Risk-Adj): 1.1780 | Baseline: -0.5296
+
+Шаг 1400/1625 | Loss: 127.4459 | Mean Reward (Risk-Adj): 0.3739 | Baseline: -0.5401
+
+Шаг 1450/1625 | Loss: 577.8481 | Mean Reward (Risk-Adj): 0.4635 | Baseline: -0.4498
+
+Шаг 1500/1625 | Loss: -353.2363 | Mean Reward (Risk-Adj): -1.0012 | Baseline: -0.4344
+
+Шаг 1550/1625 | Loss: -68.7048 | Mean Reward (Risk-Adj): -1.1564 | Baseline: -0.4891
+
+Шаг 1600/1625 | Loss: 182.9121 | Mean Reward (Risk-Adj): -0.0328 | Baseline: -0.4319
+
+Обучение для текущей lambda завершено. Финальная оценка модели...
+Оценка модели на 700 промптах...
+
+РЕЗУЛЬТАТ для lambda=1.0:
+Средняя награда исходной SFT модели: 4.7447
+Средняя награда REINFORCE модели: 4.2982
+Сохранение модели в ./reinforce_model_smollm2_prob_rm_lambda_1.0...
+Модель успешно сохранена.
+
+
+==================== ИТОГОВЫЕ РЕЗУЛЬТАТЫ ====================
+Награда исходной SFT модели: 4.7447
+
+Результаты обучения для разных значений lambda:
+------------------------------------------
+| Lambda     | Итоговая награда     |
+------------------------------------------
+| 0.10       | 5.4189               |
+| 0.50       | 5.2796               |
+| 1.00       | 4.2982               |
+------------------------------------------
+
+🏆 Лучшее значение lambda: 0.1 с наградой 5.4189
+
+✅ Обучение с REINFORCE улучшило метрику по сравнению с SFT.
+Лучшая модель сохранена в: ./reinforce_model_smollm2_prob_rm_lambda_0.1

@@ -1,0 +1,151 @@
+Используемое устройство: cuda
+Загрузка моделей и токенайзера...
+Загрузка и подготовка датасета...
+Оценка модели на 700 промптах...
+
+Средняя награда исходной SFT модели: 3.4284
+
+Начинаем обучение с помощью REINFORCE w/ baseline (с регрессионной RM)...
+--- Эпоха 1 / 1 ---
+
+Шаг 0/1625 | Loss: -84.1791 | Mean Reward: 3.0249 | Baseline: 3.0249
+
+Шаг 100/1625 | Loss: 118.5869 | Mean Reward: 3.4617 | Baseline: 3.1217
+
+Шаг 200/1625 | Loss: 478.8256 | Mean Reward: 4.3186 | Baseline: 3.2356
+
+Шаг 300/1625 | Loss: -43.2412 | Mean Reward: 3.4605 | Baseline: 3.2909
+
+Шаг 400/1625 | Loss: -129.5855 | Mean Reward: 3.4196 | Baseline: 3.3498
+
+Шаг 500/1625 | Loss: 160.9663 | Mean Reward: 3.6053 | Baseline: 3.4192
+
+Шаг 600/1625 | Loss: -144.3052 | Mean Reward: 3.1328 | Baseline: 3.4636
+
+Шаг 700/1625 | Loss: -202.6751 | Mean Reward: 3.3112 | Baseline: 3.4951
+
+Шаг 800/1625 | Loss: -496.1105 | Mean Reward: 3.1007 | Baseline: 3.5111
+
+Шаг 900/1625 | Loss: -206.7646 | Mean Reward: 3.3604 | Baseline: 3.5412
+
+Шаг 1000/1625 | Loss: 61.1113 | Mean Reward: 3.6367 | Baseline: 3.5632
+
+Шаг 1100/1625 | Loss: 25.1055 | Mean Reward: 3.2951 | Baseline: 3.5960
+
+Шаг 1200/1625 | Loss: 56.0549 | Mean Reward: 3.7774 | Baseline: 3.6335
+
+Шаг 1300/1625 | Loss: 160.0141 | Mean Reward: 3.8251 | Baseline: 3.6713
+
+Шаг 1400/1625 | Loss: -78.4973 | Mean Reward: 2.8952 | Baseline: 3.6718
+
+Шаг 1500/1625 | Loss: 295.2804 | Mean Reward: 4.0508 | Baseline: 3.7302
+
+Шаг 1600/1625 | Loss: -141.6817 | Mean Reward: 3.6405 | Baseline: 3.7139
+
+Шаг 1700/1625 | Loss: -140.7442 | Mean Reward: 3.6403 | Baseline: 3.7465
+
+Шаг 1800/1625 | Loss: 192.8860 | Mean Reward: 3.9925 | Baseline: 3.7397
+
+Шаг 1900/1625 | Loss: 192.2505 | Mean Reward: 3.9909 | Baseline: 3.7545
+
+Шаг 2000/1625 | Loss: -170.8030 | Mean Reward: 3.5417 | Baseline: 3.7517
+
+Шаг 2100/1625 | Loss: 217.9476 | Mean Reward: 4.0967 | Baseline: 3.7685
+
+Шаг 2200/1625 | Loss: -1258.8551 | Mean Reward: 1.8577 | Baseline: 3.7715
+
+Шаг 2300/1625 | Loss: -760.2484 | Mean Reward: 3.2933 | Baseline: 3.7996
+
+Шаг 2400/1625 | Loss: 201.9935 | Mean Reward: 4.2321 | Baseline: 3.7928
+
+Шаг 2500/1625 | Loss: 139.3162 | Mean Reward: 4.0260 | Baseline: 3.8086
+
+Шаг 2600/1625 | Loss: 80.5211 | Mean Reward: 3.9718 | Baseline: 3.8306
+
+Шаг 2700/1625 | Loss: 237.2988 | Mean Reward: 4.1957 | Baseline: 3.8490
+
+Шаг 2800/1625 | Loss: 53.6484 | Mean Reward: 3.9633 | Baseline: 3.8464
+
+Шаг 2900/1625 | Loss: 309.3743 | Mean Reward: 4.3316 | Baseline: 3.8314
+
+Шаг 3000/1625 | Loss: 279.4387 | Mean Reward: 4.3475 | Baseline: 3.8441
+
+Шаг 3100/1625 | Loss: -77.9570 | Mean Reward: 3.9289 | Baseline: 3.8868
+
+Шаг 3200/1625 | Loss: -488.4561 | Mean Reward: 3.4912 | Baseline: 3.8743
+
+Шаг 3300/1625 | Loss: 92.3846 | Mean Reward: 4.0596 | Baseline: 3.8877
+
+Шаг 3400/1625 | Loss: -8.1741 | Mean Reward: 3.7284 | Baseline: 3.8803
+
+Шаг 3500/1625 | Loss: 170.4741 | Mean Reward: 3.8826 | Baseline: 3.8743
+
+Шаг 3600/1625 | Loss: -287.9299 | Mean Reward: 3.4778 | Baseline: 3.8554
+
+Шаг 3700/1625 | Loss: -478.5001 | Mean Reward: 3.3573 | Baseline: 3.8894
+
+Шаг 3800/1625 | Loss: 207.1270 | Mean Reward: 4.3482 | Baseline: 3.8901
+
+Шаг 3900/1625 | Loss: 225.3689 | Mean Reward: 4.4597 | Baseline: 3.8825
+
+Шаг 4000/1625 | Loss: -219.5643 | Mean Reward: 2.9452 | Baseline: 3.9372
+
+Шаг 4100/1625 | Loss: 128.3054 | Mean Reward: 4.1443 | Baseline: 3.9482
+
+Шаг 4200/1625 | Loss: -592.7881 | Mean Reward: 3.4344 | Baseline: 3.9535
+
+Шаг 4300/1625 | Loss: -213.5428 | Mean Reward: 3.9001 | Baseline: 3.9489
+
+Шаг 4400/1625 | Loss: 43.1133 | Mean Reward: 3.9810 | Baseline: 3.9618
+
+Шаг 4500/1625 | Loss: -58.6641 | Mean Reward: 3.7353 | Baseline: 3.9221
+
+Шаг 4600/1625 | Loss: -143.1453 | Mean Reward: 2.9230 | Baseline: 3.9411
+
+Шаг 4700/1625 | Loss: 239.4839 | Mean Reward: 3.6010 | Baseline: 3.9655
+
+Шаг 4800/1625 | Loss: 205.1133 | Mean Reward: 4.3222 | Baseline: 3.9822
+
+Шаг 4900/1625 | Loss: 202.2478 | Mean Reward: 4.0925 | Baseline: 3.9837
+
+Шаг 5000/1625 | Loss: 212.5952 | Mean Reward: 4.1944 | Baseline: 3.9859
+
+Шаг 5100/1625 | Loss: 100.7663 | Mean Reward: 4.2468 | Baseline: 4.0069
+
+Шаг 5200/1625 | Loss: 228.4291 | Mean Reward: 4.4575 | Baseline: 4.0296
+
+Шаг 5300/1625 | Loss: -9.0836 | Mean Reward: 3.6681 | Baseline: 4.0234
+
+Шаг 5400/1625 | Loss: -262.0452 | Mean Reward: 3.9171 | Baseline: 4.0409
+
+Шаг 5500/1625 | Loss: -66.7938 | Mean Reward: 4.0253 | Baseline: 4.0462
+
+Шаг 5600/1625 | Loss: 123.4008 | Mean Reward: 4.2074 | Baseline: 4.0310
+
+Шаг 5700/1625 | Loss: -116.9277 | Mean Reward: 3.6729 | Baseline: 4.0452
+
+Шаг 5800/1625 | Loss: 130.8230 | Mean Reward: 4.2201 | Baseline: 4.0317
+
+Шаг 5900/1625 | Loss: -1442.2944 | Mean Reward: 2.4648 | Baseline: 4.0274
+
+Шаг 6000/1625 | Loss: -511.9514 | Mean Reward: 3.2759 | Baseline: 4.0200
+
+Шаг 6100/1625 | Loss: -202.4072 | Mean Reward: 3.9091 | Baseline: 4.0071
+
+Шаг 6200/1625 | Loss: 187.8590 | Mean Reward: 4.2036 | Baseline: 4.0295
+
+Шаг 6300/1625 | Loss: -1491.5044 | Mean Reward: 2.8125 | Baseline: 4.0336
+
+Шаг 6400/1625 | Loss: -47.1133 | Mean Reward: 4.0136 | Baseline: 4.0133
+
+Обучение завершено. Финальная оценка модели...
+Оценка модели на 700 промптах...
+
+Средняя награда исходной SFT модели: 3.4284
+Средняя награда REINFORCE модели: 4.0187
+
+✅ Средняя награда на отложенной выборке выросла!
+Сохранение REINFORCE модели в ./reinforce_model_smollm2_regression...
+[2025-06-23 18:24:12,074] [INFO] [real_accelerator.py:239:get_accelerator] Setting ds_accelerator to cuda (auto detect)
+Модель успешно сохранена.
+Level_1_improve_RM!!!!!
